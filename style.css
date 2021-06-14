@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-image: linear-gradient(
+    180deg,
+    #008B8B 50%,     
+    #20B2AA 50%,
+    #008080 50%
+    );
+    color: white;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+main > section img{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    display: flex;
+}
+
+.character{
+    padding: 0px 14px;
+}
+
+h4{
+ text-align: center;   
+}
+
+
+
